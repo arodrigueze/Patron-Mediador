@@ -10,10 +10,10 @@ import javax.swing.JComboBox;
 
 public class Lista extends JComboBox{
 	
-	FontDialogDirector director;
+	Director director;
 	private Lista lista;
 
-	public Lista(FontDialogDirector director) {
+	public Lista(Director director) {
 		super();
 		this.director = director;
 		this.setModel(new DefaultComboBoxModel(new String[] {"Times New Roman", "Arial", "Roboto", "Open Sans", "Lato", "Roboto Condensed"}));

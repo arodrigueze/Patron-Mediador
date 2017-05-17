@@ -8,10 +8,10 @@ import javax.swing.JButton;
 @SuppressWarnings("serial")
 public class Boton extends JButton{
 	
-	private FontDialogDirector director;
+	private Director director;
 	private Boton btn;
 	
-	public Boton(FontDialogDirector director) {
+	public Boton(Director director) {
 		super("Lista Items");
 		this.director = director;
 		this.btn = this;

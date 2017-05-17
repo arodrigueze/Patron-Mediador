@@ -8,7 +8,7 @@ import javax.swing.BoxLayout;
 
 
 @SuppressWarnings("serial")
-public class FontDialogDirector extends JFrame {
+public class Director extends JFrame {
 
 	private JPanel contentPane;
 	Boton boton;
@@ -22,7 +22,7 @@ public class FontDialogDirector extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					FontDialogDirector frame = new FontDialogDirector();
+					Director frame = new Director();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -34,7 +34,7 @@ public class FontDialogDirector extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public FontDialogDirector() {
+	public Director() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 504, 231);
 		contentPane = new JPanel();
